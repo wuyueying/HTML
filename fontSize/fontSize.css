@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+	height: 88px;
+	border-top: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.text {
+	font-size: 30px;
+}
+
+.middle-box{display: table; height: 88px; border:1px solid #ff0000; width: 400px; position:relative;}
+.middle-inner{display: table-cell; vertical-align:middle; *position:absolute; *top:50%; *left:50%; width:100%; }
+.middle-inner p{position:relative; *top:-50%; *left:-50%;}
